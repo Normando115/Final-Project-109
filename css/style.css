@@ -1,0 +1,84 @@
+
+html,
+body {
+  font-family: annie use your telescope, sans-serif;
+  font-family: pacifica, annie use your telescope;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+/*Styles for the overlay*/
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(170, 173, 201, 0.85); */
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#instructions {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.65);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: start;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0px;
+}
+
+p {
+    color: yellow;
+    font-size: 1.75em;
+    max-width: 600px;
+}
+
+.text {
+    font-size: 1.25em;
+    color: black;
+    background: pink;
+    padding: 10px;
+}
+
+a {
+    color: lightblue;
+    padding: 10px;
+    margin-left: -10px;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    background: purple;
+    transition: 0.2s ease;
+}
