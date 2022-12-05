@@ -208,6 +208,8 @@ function init() {
   scene.add(floor);
 
 
+// Room 1
+
   // First Image (red and purple glitch map)
   // Load image as texture
   const texture = new THREE.TextureLoader().load( 'assets/poster1.jpg' );
@@ -479,7 +481,7 @@ let mesh12;
   // Load preanimated model, add material, and add it to the scene
 const loader12 = new GLTFLoader();
 loader12.load(
-  "assets/Table.glb",
+  "assets/table.glb",
 	function ( gltf ) {
 mesh12 = gltf.scene;
 mesh12.scale.set(4,4,4);
@@ -494,6 +496,9 @@ mesh12.rotation.set(-0,14.1 ,0);
   },
 )
 
+
+
+// end of room 1
 
 
   // Define Rendered and html document placement
