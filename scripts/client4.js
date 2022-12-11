@@ -251,8 +251,6 @@ function onWindowResize() {
   renderer.setSize(window.innerWidth, window.innerHeight);
 }
 
-}
-
 // Animation function
 function animate() {
   requestAnimationFrame(animate);
