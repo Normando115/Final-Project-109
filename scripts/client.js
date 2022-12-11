@@ -551,7 +551,7 @@ function portalRedirect1() {
     console.log("hi");
     if (controls.getObject().position.z > 60 && controls.getObject().position.z < 120){
       //change url to your url
-      window.open("https://docs.google.com/document/d/1jtiVamfnPJw8ITcHz33VCJ8e0fliPrBj3uVICBwiVHg/edit");
+      window.open("https://normando115.github.io/Final-Project-109/index2");
     }
   }
   //for debugging open console to see position
@@ -567,7 +567,7 @@ function portalRedirect2() {
     console.log("hi");
     if (controls.getObject().position.z > -10 && controls.getObject().position.z < 40){
       //change url to your url
-      window.open("https://docs.google.com/spreadsheets/d/19hU0mbIXwRkl9OoFcxJnZgCrGkghHu3vxtwL4BsLfkM/edit#gid=1632573556");
+      window.open("https://normando115.github.io/Final-Project-109/index3");
     }
   }
 
@@ -582,7 +582,7 @@ function portalRedirect3() {
     console.log("hi");
     if (controls.getObject().position.z > -90 && controls.getObject().position.z < -70){
       //change url to your url
-      window.open("https://docs.google.com/presentation/d/1RFHH6bGUVk6W-_mLOymjO5DuShG9xWeUijz_s7rClJY/edit#slide=id.p");
+      window.open("https://normando115.github.io/Final-Project-109/index4");
     }
   }
   //for debugging open console to see position
