@@ -357,7 +357,7 @@ let mesh5;
   // Load preanimated model, add material, and add it to the scene
 const loader5 = new GLTFLoader();
 loader5.load(
-  "assets/Table.glb",
+  "assets/table.glb",
 	function ( gltf ) {
 mesh5 = gltf.scene;
 mesh5.scale.set(4,4,4);
@@ -551,7 +551,7 @@ function portalRedirect1() {
     console.log("hi");
     if (controls.getObject().position.z > 60 && controls.getObject().position.z < 120){
       //change url to your url
-      window.open("https://normando115.github.io/Final-Project-109/index2");
+      window.open("https://normando115.github.io/Final-Project-109/index4");
     }
   }
   //for debugging open console to see position
@@ -582,7 +582,7 @@ function portalRedirect3() {
     console.log("hi");
     if (controls.getObject().position.z > -90 && controls.getObject().position.z < -70){
       //change url to your url
-      window.open("https://normando115.github.io/Final-Project-109/index4");
+      window.open("https://normando115.github.io/Final-Project-109/index2");
     }
   }
   //for debugging open console to see position
