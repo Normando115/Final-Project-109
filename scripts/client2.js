@@ -1,16 +1,4 @@
-// Art 109 Three.js Demo Site
-// client7.js
-// A three.js scene which uses planes and texture loading to generate a scene with images which can be traversed with basic WASD and mouse controls, this scene is full screen with an overlay.
-
-// Import required source code
-// Import three.js core
-
-// 2 for shower
-// 3 for toilet
-//4 for open door
-// 5 for Window
-//6 for person wakes up
-// press 1 to make water faceut spit water
+//done
 import * as THREE from "../build/three.module.js";
 // Import pointer lock controls
 import {
@@ -156,20 +144,6 @@ function init() {
     10
   );
 
-
-
-
-
-// const geometry4 = new THREE.IcosahadedronGeometry(2,1);
-// const matLineBasic = new THREE.LineBasicMaterial( {
-//   color: 0xaa42f5,
-//   linewidth: 4
-// });
-// const wireframe= new THREE.WireframeGeometry(geometry4)
-// const line = new THREE.LineSegments(wireframe, matLineBasic);
-// lne.position.set (0,10,0);
-// scene.add( plane);
-
   // Generate the ground
   let floorGeometry = new THREE.PlaneGeometry(2000, 2000, 100, 100);
   floorGeometry.rotateX(-Math.PI / 2);
@@ -216,7 +190,7 @@ let mesh1;
   // Load preanimated model, add material, and add it to the scene
 const loader = new GLTFLoader();
 loader.load(
-  "assets/room1.glb",
+  "assets/cafe.glb",
 	function ( gltf ) {
 mesh1 = gltf.scene;
 mesh1.scale.set(50,50,50);

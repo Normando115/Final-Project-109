@@ -216,12 +216,12 @@ let mesh1;
   // Load preanimated model, add material, and add it to the scene
 const loader = new GLTFLoader();
 loader.load(
-  "assets/room3.glb",
+  "assets/future.glb",
 	function ( gltf ) {
 mesh1 = gltf.scene;
 mesh1.scale.set(50,50,50);
-mesh1.position.set(350,2.5 ,-100);
-mesh1.rotation.set(0,179.9 ,0);
+mesh1.position.set(-150,2 ,-350);
+mesh1.rotation.set(0,12 ,0);
 		gltf.animations; // Array<THREE.AnimationClip>
 		gltf.scene; // THREE.Group
 		gltf.scenes; // Array<THREE.Group>

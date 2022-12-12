@@ -156,20 +156,6 @@ function init() {
     10
   );
 
-
-
-
-
-// const geometry4 = new THREE.IcosahadedronGeometry(2,1);
-// const matLineBasic = new THREE.LineBasicMaterial( {
-//   color: 0xaa42f5,
-//   linewidth: 4
-// });
-// const wireframe= new THREE.WireframeGeometry(geometry4)
-// const line = new THREE.LineSegments(wireframe, matLineBasic);
-// lne.position.set (0,10,0);
-// scene.add( plane);
-
   // Generate the ground
   let floorGeometry = new THREE.PlaneGeometry(2000, 2000, 100, 100);
   floorGeometry.rotateX(-Math.PI / 2);
@@ -216,7 +202,7 @@ let mesh1;
   // Load preanimated model, add material, and add it to the scene
 const loader = new GLTFLoader();
 loader.load(
-  "assets/room2.glb",
+  "assets/home.glb",
 	function ( gltf ) {
 mesh1 = gltf.scene;
 mesh1.scale.set(50,50,50);
