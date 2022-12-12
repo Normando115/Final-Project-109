@@ -1,16 +1,3 @@
-// Art 109 Three.js Demo Site
-// client7.js
-// A three.js scene which uses planes and texture loading to generate a scene with images which can be traversed with basic WASD and mouse controls, this scene is full screen with an overlay.
-
-// Import required source code
-// Import three.js core
-
-// 2 for shower
-// 3 for toilet
-//4 for open door
-// 5 for Window
-//6 for person wakes up
-// press 1 to make water faceut spit water
 import * as THREE from "../build/three.module.js";
 // Import pointer lock controls
 import {
@@ -235,7 +222,6 @@ function onWindowResize() {
 
   renderer.setSize(window.innerWidth, window.innerHeight);
 }
-
 
 // Animation function
 function animate() {

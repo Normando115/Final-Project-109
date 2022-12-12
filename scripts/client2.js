@@ -185,7 +185,6 @@ function init() {
   // Insert completed floor into the scene
   scene.add(floor);
 
-
 let mesh1;
   // Load preanimated model, add material, and add it to the scene
 const loader = new GLTFLoader();
@@ -204,7 +203,6 @@ mesh1.rotation.set(0,0,0);
 		scene.add( mesh1 );
   },
 )
-
 
   // Define Rendered and html document placement
   renderer = new THREE.WebGLRenderer({

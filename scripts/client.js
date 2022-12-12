@@ -1,16 +1,3 @@
-// Art 109 Three.js Demo Site
-// client7.js
-// A three.js scene which uses planes and texture loading to generate a scene with images which can be traversed with basic WASD and mouse controls, this scene is full screen with an overlay.
-
-// Import required source code
-// Import three.js core
-
-// 2 for shower
-// 3 for toilet
-//4 for open door
-// 5 for Window
-//6 for person wakes up
-// press 1 to make water faceut spit water
 import * as THREE from "../build/three.module.js";
 // Import pointer lock controls
 import {
@@ -22,7 +9,6 @@ import {
 import {
   GLTFLoader
 } from "../src/GLTFLoader.js";
-
 // Establish variables
 let camera, scene, renderer, controls, material, mixer, action;
 
@@ -155,21 +141,6 @@ function init() {
     0,
     10
   );
-
-
-
-
-
-// const geometry4 = new THREE.IcosahadedronGeometry(2,1);
-// const matLineBasic = new THREE.LineBasicMaterial( {
-//   color: 0xaa42f5,
-//   linewidth: 4
-// });
-// const wireframe= new THREE.WireframeGeometry(geometry4)
-// const line = new THREE.LineSegments(wireframe, matLineBasic);
-// lne.position.set (0,10,0);
-// scene.add( plane);
-
   // Generate the ground
   let floorGeometry = new THREE.PlaneGeometry(2000, 2000, 100, 100);
   floorGeometry.rotateX(-Math.PI / 2);
@@ -210,10 +181,6 @@ function init() {
 
   // Insert completed floor into the scene
   scene.add(floor);
-
-
-// Room 1
-
   // First Image (red and purple glitch map)
   // Load image as texture
   const texture = new THREE.TextureLoader().load( 'assets/poster1.jpg' );
@@ -352,7 +319,6 @@ mesh4.rotation.set(0,121,0);
 		scene.add( mesh4 );
   },
 )
-
 let mesh5;
   // Load preanimated model, add material, and add it to the scene
 const loader5 = new GLTFLoader();
@@ -445,8 +411,6 @@ mesh9.position.set(90,19 ,-130);
   },
 )
 
-
-
 let mesh10;
   // Load preanimated model, add material, and add it to the scene
 const loader10 = new GLTFLoader();
@@ -518,11 +482,6 @@ mesh13.rotation.set(0,4.65 ,0);
   },
 )
 
-
-
-// end of room 1
-
-
   // Define Rendered and html document placement
   renderer = new THREE.WebGLRenderer({
     antialias: true
@@ -570,7 +529,6 @@ function portalRedirect2() {
       window.open("https://normando115.github.io/Final-Project-109/index3");
     }
   }
-
 
   // place as a function "portalRedirect();" in "animate" function.
 }
